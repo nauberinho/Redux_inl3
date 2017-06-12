@@ -4,35 +4,21 @@
 import * as firebase from 'firebase';
 const database = firebase.database();
 let productsList = [{name: 'hej', price: 0}];
-let initialState = {}
-database.ref('products').once('value', snapshot => {
-
-    let data = snapshot.val();
 
 
-    for (let product in data) {
-        console.log('inside loop')
-        console.log('productslist ', productsList)
-        productsList.push({
-            name: data[product].name,
-            price: data[product].price
-        })
-    }
-    initialState = {
 
-        products: productsList,
-        previousProducts: [],
-    }
-});
+const productsReducer = (state = {
 
-const productsReducer = (state = initialState, action) => {
+    products: productsList,
+    previousProducts: [],
+}, action) => {
     let newState = {...state};
     switch(action.type){
 
         case 'UPDATE_STATE':
-
+            let productsList1 = [];
             database.ref('products').on('value', snapshot => {
-                let productsList1 = [];
+
                 let data = snapshot.val();
 
 
@@ -43,16 +29,16 @@ const productsReducer = (state = initialState, action) => {
                     })
                 }
 
-                newState = {...state, products: productsList1}
-            });
 
+            });
+            newState = {...state, products: productsList1}
             break;
 
 
             default:
                 break;
     }
-
+    console.log('newState: ', newState)
     return newState;
 
 
