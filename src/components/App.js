@@ -10,10 +10,9 @@ import {
     setPrice,
     pushToDatabase
 } from '../actions/formActions.js';
-import {
-    setNewProduct,
+import
     updateProductsState
-}
+
  from '../actions/productsActions.js';
 import * as firebase from 'firebase';
 import config from '../firebase';
@@ -27,7 +26,7 @@ class App extends Component {
     return (
       <div className="container">
 
-          <Form formState={this.props.form} productsState={this.props.productsState} setName={this.props.setName} setPrice={this.props.setPrice} pushToDatabase={this.props.pushToDatabase}/>
+          <Form formState={this.props.form} setName={this.props.setName} setPrice={this.props.setPrice} pushToDatabase={this.props.pushToDatabase}/>
           <Products updateProductsState={this.props.updateProductsState} productsState={this.props.productsState}/>
       </div>
     );
