@@ -6,9 +6,9 @@ export default class Form extends Component {
 
         return(
             <div>
-                <input onKeyUp={this.props.setTempName} className='setNameInput' type="text"/>
-                <input onKeyUp={this.props.setTempPrice} className='setPriceInput' type="text"/>
-                <button className="'setNewProduct" onClick={() => this.props.setNewProduct(this.props.form.tempProduct)}></button>
+                <input onKeyUp={this.props.setName} className='setNameInput' type="text"/>
+                <input onKeyUp={this.props.setPrice} className='setPriceInput' type="text"/>
+                <button className="setNewProduct" onClick={this.props.pushToDatabase}>Set New Product</button>
             </div>
 
 

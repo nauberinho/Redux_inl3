@@ -7,23 +7,23 @@ import React, { Component } from 'react';
 
 export default class Products extends Component {
 
-    render(){
+    componentDidMount() {
+        this.props.updateProductsState();
+    }
 
+    render(){
         return(
             <div>
 
                 <ul>
-                    {this.props.productsState.products.map((product, index) => {
+                    {this.props.productsState.products.map((product, key) => {
+
                         return(
-                        <li key={index}><span>{product.name}</span></li>
+
+                        <li key={key}><span>{product.name}</span><br/><span>{product.price}</span></li>
 
                         )
-
-
-
-                    })
-
-                    }
+                    })}
                 </ul>
 
             </div>

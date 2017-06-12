@@ -13,7 +13,16 @@ return{
 export function setPrice(event){
     return{
         type: 'SET_PRICE',
-        payload: event.target.valu
+        payload: event.target.value
+    }
+
+}
+
+export function pushToDatabase(){
+
+    return{
+
+        type: 'PUSH_TO_DATABASE'
     }
 
 }

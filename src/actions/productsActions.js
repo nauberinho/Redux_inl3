@@ -2,10 +2,17 @@
  * Created by Iamnauber on 2017-06-11.
  */
 
-export default function setNewProduct(productObject){
+export function setNewProduct(productObject){
     return{
-        type: 'SET_NAME',
+        type: 'SET_NEW_PRODUCT',
         payload: productObject
+    }
+
+}
+
+export function updateProductsState(){
+    return{
+        type: 'UPDATE_STATE'
     }
 
 }

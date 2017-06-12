@@ -23,6 +23,18 @@ const formReducer = (state = {
             state = {...state, tempProduct: {...state.tempProduct, price: action.payload}}
             break;
 
+        case 'PUSH_TO_DATABASE':
+            let thisState = state;
+            database.ref('products/').push(
+            state.tempProduct
+
+            )
+            state = {
+                tempProduct: {}
+
+            }
+            break;
+
             default:
               break;
     }

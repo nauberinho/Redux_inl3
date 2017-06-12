@@ -7,11 +7,17 @@ import {connect} from 'react-redux';
 import Main from './Main.js';
 import {
     setName,
-    setPrice
+    setPrice,
+    pushToDatabase
 } from '../actions/formActions.js';
-import
-setNewProduct
+import {
+    setNewProduct,
+    updateProductsState
+}
  from '../actions/productsActions.js';
+import * as firebase from 'firebase';
+import config from '../firebase';
+firebase.initializeApp(config);
 
 class App extends Component {
     changeUserName(newName) {
@@ -21,9 +27,8 @@ class App extends Component {
     return (
       <div className="container">
 
-          <Main changeUserName={this.changeUserName.bind(this)}/>
-          <Form productsState={this.props.productsState} setName={this.props.setName} setPrice={this.props.setPrice}/>
-          <Products productsState={this.props.productsState}/>
+          <Form formState={this.props.form} productsState={this.props.productsState} setName={this.props.setName} setPrice={this.props.setPrice} pushToDatabase={this.props.pushToDatabase}/>
+          <Products updateProductsState={this.props.updateProductsState} productsState={this.props.productsState}/>
       </div>
     );
   }
@@ -31,8 +36,8 @@ class App extends Component {
 
 const mapStateToProps = (state) => {
     return{
-        form: state.formReducer,
-        productsState: state.productsReducer
+        form: state.form,
+        productsState: state.product
 
     }
 }
@@ -48,10 +53,16 @@ const mapDispatchToProps = (dispatch) => {
             dispatch(setPrice(event))
         },
 
-        setNewProduct: (productObject) => {
+        pushToDatabase: (productObject) => {
 
-            dispatch(setNewProduct(productObject))
+            dispatch(pushToDatabase(productObject))
+        },
+
+        updateProductsState: () => {
+
+            dispatch(updateProductsState())
         }
+
     };
 }
 
