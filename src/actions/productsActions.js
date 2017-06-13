@@ -4,9 +4,19 @@
 
 
 
-export default function updateProductsState(){
+export function updateProductsState(){
     return{
         type: 'UPDATE_STATE'
+    }
+
+}
+
+
+export function addNewProduct (productObject){
+
+    return{
+        type: 'ADD_NEW_PRODUCT',
+        payload: productObject
     }
 
 }

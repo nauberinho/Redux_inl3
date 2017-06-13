@@ -18,28 +18,29 @@ const formReducer = (state = {
 
         case 'SET_NAME':
             newState = {...state, tempProduct: {...state.tempProduct, name: action.payload}}
-            break;
+            return newState;
         case 'SET_PRICE':
             newState = {...state, tempProduct: {...state.tempProduct, price: action.payload}}
-            break;
+            return newState;
 
         case 'PUSH_TO_DATABASE':
 
-            database.ref('products/').push(
+            /*database.ref('products/').push(
                 newState.tempProduct
 
-            )
-            newState = {
-                tempProduct: {}
+            )*/
+            newState = {tempProduct: {}
 
             }
+
+            return newState;
             break;
 
             default:
-              break;
+                return state;
+
     }
 
-    return newState;
 }
 
 export default formReducer;

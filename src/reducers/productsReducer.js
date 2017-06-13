@@ -3,13 +3,25 @@
  */
 import * as firebase from 'firebase';
 const database = firebase.database();
-let productsList = [{name: 'hej', price: 0}];
+
+var productsList = [];
+var initialState = [{name: 'Exhale', price: 100}];
+database.ref('products').on('value', (snapshot) => {
+
+    let data = snapshot.val();
 
 
+    for (let product in data) {
+        productsList.push({
+            name: data[product].name,
+            price: data[product].price
+        })
+    }
+});
 
 const productsReducer = (state = {
 
-    products: productsList,
+    products: initialState,
     previousProducts: [],
 }, action) => {
     let newState = {...state};
@@ -28,18 +40,22 @@ const productsReducer = (state = {
                         price: data[product].price
                     })
                 }
-
-
             });
-            newState = {...state, products: productsList1}
-            break;
 
+            newState = {...state, products: productsList1}
+            return newState;
+
+        case 'ADD_NEW_PRODUCT':
+            let newProductsList = state.products
+            newProductsList.push(action.payload);
+            newState = {...state, products: newProductsList }
+            return newState;
 
             default:
-                break;
+                return newState;
+
     }
-    console.log('newState: ', newState)
-    return newState;
+
 
 
 }

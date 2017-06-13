@@ -10,8 +10,10 @@ import {
     setPrice,
     pushToDatabase
 } from '../actions/formActions.js';
-import
-    updateProductsState
+import{
+    updateProductsState,
+    addNewProduct
+}
 
  from '../actions/productsActions.js';
 import * as firebase from 'firebase';
@@ -26,7 +28,7 @@ class App extends Component {
     return (
       <div className="container">
 
-          <Form formState={this.props.form} setName={this.props.setName} setPrice={this.props.setPrice} pushToDatabase={this.props.pushToDatabase}/>
+          <Form formState={this.props.form} setName={this.props.setName} setPrice={this.props.setPrice} addNewProduct={this.props.addNewProduct} pushToDatabase={this.props.pushToDatabase}/>
           <Products updateProductsState={this.props.updateProductsState} productsState={this.props.productsState}/>
       </div>
     );
@@ -60,6 +62,10 @@ const mapDispatchToProps = (dispatch) => {
         updateProductsState: () => {
 
             dispatch(updateProductsState())
+        },
+
+        addNewProduct: (productObject) => {
+            dispatch(addNewProduct(productObject))
         }
 
     };
