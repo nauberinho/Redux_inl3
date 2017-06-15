@@ -2,11 +2,122 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="318150f9-6ef6-4bee-a85c-a42af78214b8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/076b8cbc3985ce5143aa99008035ad9997d8bd27.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/084a18687a61b83eadc0cfc5edac1c6abad145c0.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0948b6c08af1e31c335e4fd248a888e8a4f4075d.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0c322a20cd5f5ab7bd3cf5755ee56014a592e874.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0dd695ce51ca573cd51d3ff295c65e7e72e60f16.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0ea3e0ede5337b6a491e4def79eb3aa2abe6f393.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/125b7d6c5ca4cf07c2806b8373cdda5b39913d9c.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/13d0933861bd70c6b1e0f0629a28829e97cd1848.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/15f2d8076b4b3de8aa640e6643fda9f4dd9149d0.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/166c92795509f1b318bdbb0b26551bcaf5b41cdb.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/189f4c1fe99d165f8ae765427d678b37c745ad23.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1b39b04f689699731183faca59b4e73bebbb09bf.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1bcf7f08b85ec087a5d03b0b0661c880f9dabf3c.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1ff39df6f40395b4edc0a5ffd9b26b15cd0808d2.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2232235f2474827bac308965ed61f506e9608833.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/237b4375133b3de51b0594a563198555d8e4e6cf.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/26c520ce658c682e750b66f06f6f20f5256eed48.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/28596d29099b24bff5debe924d772afc5a070dc6.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2bd5ee04b01d4acf3fe86d4f5afdc435ec1eadff.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2f4bb0e74f0cd0e94349f3bfc089df99512c12fb.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3048ed04e8357e4b3d8a3d848bc07f72eeab75a3.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3244ebc8bbd9c6b1d15ed721ea996118219616b6.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3a94742d0636e4b025377d8e8b6657c5e7cdb5fc.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3dcc8297e5590920d24ef8918674764c4c66ce06.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3ee57ba9a4146afe2827ac264483efc15a34f398.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/435339ac4b91a0d9d1f71e4c68c9fa7f6c17a326.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4765ae3c3394d999e68785dd970178984491e9eb.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/477e6e24621b5ffedf6b5f0f266a4a58c145aea5.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4869acb02641e18fdcc6b29582d93dca3c83b9e4.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/48ed62f09d911edab74611e3de25d6d66db90b18.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4aa59f5660e537a509c2047a3b1fc4256e1fe773.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/59d5ea4b32ea094e02c928baafe51715ded92669.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5b4d1e5a54a99dacb266f7d8c1ee4bdf9eaaf50d.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5d86284f7c4dc4a42ffefbb68821ba92f20a6003.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5d91ce12350a0978593775f419c3f97112ccfc0e.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6039f951bf121354295dcbbf98ec359969cbabcc.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6156ac5da9db5c3d769cc4729d429289ff0bfd09.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6228671a012b95f3e90fd7e57e3a01b3d27a3091.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/623e38d6c5f40ee12bce5c8b372a850f173c852b.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6a3f310e992ec62cbd8c2c3ac0041346272ad63a.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6aac4ebeae5db3b65b9ed4eab45482b4d15afdf8.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6ae4d8fdb642bf70ce45194f47dc3df93a1192c2.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/700961ea02083839d0d56d20a0df4512eabfca54.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/735101f4e88721ccfc4762ad5588a014227b6bf2.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/73bf2b6a9d667f97cbd32ae02e45b8665f937498.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/768cf4e401eeb16fd7a8fee2f414e90c4729af7f.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7a1a44abbefee41fd03119e6fd000cb9abde9a54.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7e81bb4f1afc3e0739f752ec1cebe4576e1f630a.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7f18e67aa532516ecfe5c4114edf5a97e7562c34.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/82d7588012ed1ddd5e10f8fd7180ad9dbec7ad88.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8605e98e3b4017b083ffd9352b5511659eb3051a.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8642031bbdd51b0ff3d7ff66cea50619d953f2d0.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/89431383a04d99d1d8820d2c48c13fd0d5915633.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8ba3356cc5bf0b3498f7a6dddb189bd79b5c47e0.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8bbe1b748da3b8ec9522b4d82b18147ea7b4e27c.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8ebb010512a121091fbff572988ced547a20685d.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/90585dd1aaa1cccc123390b5c65ed571b7da9e60.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/90fa2bd8ececa5adf331b062c1c80a30be740593.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/960205a0eabfd5f5b351664d5fbfcf629a5c16be.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/962dbb230020a2f55fc905d50edac4a666df32a0.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9829ad055a793dee16292b474a6c491e488d337f.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/993fd6593d6077bf6b8d31d1747118ef2265af88.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9a2987bf5877482e2dc3f271c3fbe4ebed4e31f6.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9cf750f2f53f66cfac84a56ef2e9e3b1e3fcd9f5.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9dba9450f2bead4c53cf702b42a9ffac4033fbe1.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9e05f7a88226d7b11890d8f408cfb8e2b3c02a72.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9e2e6661f49ccaee2ff710c2156eadfbb0f92970.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a069a8c718fbd38d778c0c4e1c06d97a87af4094.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a3607a0a9ac4660ffd272972640d9304e7137d5b.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a4b3e235761b9bb59453bd5b90118f74ad0e82d0.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a6b61a87a1ae4fbeb44872714afc5930315aac40.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/aba56d98465529ade6e4920928b61764e48b8cdb.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/abc84c47bfc8b493d79dc3f6daca4f0d1c44d032.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/adf1c234dd7b62c0a8e31e20c5e06363cf616cfe.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/aeea765b13b3e2fb7d125bfeaa92f1d7ff41535d.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b085c472c888e2aea4d04e7cf140895b6ed646ed.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b0f43ad11cb82804a81dbe38af5e357adeefe75a.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b12df60a63c5ce53c8668fbc930185314ba5cdc0.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b9c92ca607979074395e5abcb642f11abb1f107d.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ba5edd4d757f26aaab0b641ae72655bacf7df1bd.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/baa3e4a76c949545411985720f3bad5c0394bd40.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bc3742f17e06caa628d171a0110e667dba74c52f.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bd1f1c7450f7b5b24a85a489b7538bf3a4f7bdaa.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bebbfbb9f4d4dda2c6dda78c8ba9a263d74aa941.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c0c5f459c726f49bb1c1d5f2fa147388dc1acf6c.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c11d52d97c11ed6e4b70fe968c083d422fe5ab19.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c298c214139bc38e4f22fe8a55388699e036f630.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c6f7793a4e45085d12fb27a679d580cbeb697089.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cc71187594b791d9cf3bb5c390e6edb086b5cb7d.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ce2fc72f2f2899200e5133198df42972e83b2448.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cecfc860bd71988a99be4aaebab760298cb04654.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d1610743345293e6493cb439da88955bff080733.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d25ea27b15db68e47ef60833ed93a15071f6572f.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d4e04a1a2ed716182afec114c36eb60c12745c31.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d613065d6087d77e8a94ee285688e04d0cb2c1ed.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d80c7ef070aeb1eab340470bd47691fc4ac1a97b.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/da5285ff2452472b55a0004d814e15d47913d2ca.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e00f55ce44c66d3e7e2c518720657ff981bf721a.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e0e76c159834706957fb8290cb48c590164a1c68.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e37d5a4e60e8c4b23e67d7741637fdba07d2a4b0.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e8a10ec7d945f245f02cd021fb1ebb64d7616f63.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ecad016780d247c9ec0e6f855d81d707662daf5b.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/eed0041c5246d6e56b31c5caaccbbf74a9969b2b.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f1137b2ea3734fbae998e02faafff4695ac76da3.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f3d6da72c5e36ad120bf6418a6a9e3847293b305.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fd96bd7061bb04f8c3de60961ce4eeb7eb86d12c.json.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/History.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/historyReducer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Store/store.js" afterPath="$PROJECT_DIR$/src/Store/store.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/menuActions.js" afterPath="$PROJECT_DIR$/src/actions/menuActions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.js" afterPath="$PROJECT_DIR$/src/components/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Cart.js" afterPath="$PROJECT_DIR$/src/components/Cart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Menu.js" afterPath="$PROJECT_DIR$/src/components/Menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Products.js" afterPath="$PROJECT_DIR$/src/components/Products.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/cartReducer.js" afterPath="$PROJECT_DIR$/src/reducers/cartReducer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/menuReducer.js" afterPath="$PROJECT_DIR$/src/reducers/menuReducer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/productsReducer.js" afterPath="$PROJECT_DIR$/src/reducers/productsReducer.js" />
@@ -23,14 +134,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.53017753">
+    <splitter split-orientation="vertical" split-proportion="0.70193404">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
           <file leaf-file-name="cartActions.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/actions/cartActions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+                <state relative-caret-position="350">
+                  <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
                   <folding>
                     <element signature="n#!!doc;n#increaseCartAmount#0" expanded="false" />
                   </folding>
@@ -41,11 +152,9 @@
           <file leaf-file-name="productsActions.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/actions/productsActions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-                  <folding>
-                    <marker date="1497522454438" expanded="true" signature="186:618" ph="{...}" />
-                  </folding>
+                <state relative-caret-position="125">
+                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="47" selection-end-column="1" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -53,18 +162,18 @@
           <file leaf-file-name="formActions.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/actions/formActions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="550">
-                  <caret line="38" column="11" lean-forward="false" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+                <state relative-caret-position="100">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="43" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cartReducer.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="cartReducer.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/reducers/cartReducer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+                <state relative-caret-position="225">
+                  <caret line="9" column="146" lean-forward="false" selection-start-line="9" selection-start-column="146" selection-end-line="9" selection-end-column="146" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -75,18 +184,18 @@
           <file leaf-file-name="formReducer.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/reducers/formReducer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
+                <state relative-caret-position="150">
                   <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="menuReducer.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="menuReducer.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/reducers/menuReducer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="250">
-                  <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+                <state relative-caret-position="500">
+                  <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -94,11 +203,21 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="historyReducer.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/reducers/historyReducer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="menuActions.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/actions/menuActions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+                <state relative-caret-position="525">
+                  <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -107,78 +226,8 @@
           <file leaf-file-name="productsReducer.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/reducers/productsReducer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="282">
-                  <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-          <file leaf-file-name="Products.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Products.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Menu.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/Menu.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="66">
-                  <caret line="16" column="152" lean-forward="false" selection-start-line="16" selection-start-column="152" selection-end-line="16" selection-end-column="152" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Cart.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Cart.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Form.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Form.js">
-              <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="250">
-                  <caret line="12" column="79" lean-forward="false" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/App.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1403">
-                  <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="store.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Store/store.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="125">
-                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                  <caret line="10" column="146" lean-forward="false" selection-start-line="10" selection-start-column="146" selection-end-line="10" selection-end-column="146" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -189,9 +238,92 @@
           <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="158" column="15" lean-forward="false" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
+                <state relative-caret-position="100">
+                  <caret line="105" column="14" lean-forward="false" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+          <file leaf-file-name="Products.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/Products.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-500">
+                  <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="History.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/History.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="475">
+                  <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Menu.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Menu.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="350">
+                  <caret line="16" column="116" lean-forward="false" selection-start-line="16" selection-start-column="116" selection-end-line="16" selection-end-column="116" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Cart.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Cart.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1050">
+                  <caret line="44" column="85" lean-forward="false" selection-start-line="44" selection-start-column="85" selection-end-line="44" selection-end-column="85" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Form.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Form.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="12" column="79" lean-forward="false" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/App.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="550">
+                  <caret line="60" column="111" lean-forward="false" selection-start-line="60" selection-start-column="111" selection-end-line="60" selection-end-column="111" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="store.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Store/store.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="125">
+                  <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="e#48#116#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -210,6 +342,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>return newState;</find>
+      <find>famil</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -219,20 +352,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/actions/productsActions.js" />
-        <option value="$PROJECT_DIR$/src/Store/store.js" />
         <option value="$PROJECT_DIR$/src/actions/formActions.js" />
         <option value="$PROJECT_DIR$/src/components/Form.js" />
         <option value="$PROJECT_DIR$/src/actions/cartActions.js" />
-        <option value="$PROJECT_DIR$/src/components/Cart.js" />
         <option value="$PROJECT_DIR$/src/reducers/formReducer.js" />
-        <option value="$PROJECT_DIR$/src/components/Products.js" />
-        <option value="$PROJECT_DIR$/src/reducers/cartReducer.js" />
-        <option value="$PROJECT_DIR$/src/reducers/productsReducer.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/Store/store.js" />
+        <option value="$PROJECT_DIR$/src/components/History.js" />
+        <option value="$PROJECT_DIR$/src/reducers/historyReducer.js" />
+        <option value="$PROJECT_DIR$/src/components/Cart.js" />
         <option value="$PROJECT_DIR$/src/actions/menuActions.js" />
-        <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/src/components/Menu.js" />
+        <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/src/reducers/menuReducer.js" />
+        <option value="$PROJECT_DIR$/src/components/Products.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/reducers/productsReducer.js" />
+        <option value="$PROJECT_DIR$/src/reducers/cartReducer.js" />
       </list>
     </option>
   </component>
@@ -458,25 +593,26 @@
       <workItem from="1497350596951" duration="28000" />
       <workItem from="1497357289092" duration="6646000" />
       <workItem from="1497431243935" duration="8290000" />
-      <workItem from="1497522680942" duration="5010000" />
+      <workItem from="1497522680942" duration="18435000" />
+      <workItem from="1497568428979" duration="1766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21945000" />
+    <option name="totallyTimeSpent" value="37136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.021875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.021875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03868032" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03868032" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -487,6 +623,25 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03868032" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.021875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -501,24 +656,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/reducers/productsReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/formReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Products.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -549,7 +686,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -559,6 +698,7 @@
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#48#116#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -574,7 +714,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -584,6 +726,7 @@
           <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#48#116#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -602,9 +745,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1497522454438" expanded="true" signature="186:618" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +794,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
           <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -669,9 +812,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1497522454438" expanded="true" signature="186:618" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +855,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -730,9 +873,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1497522454438" expanded="true" signature="186:618" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -790,53 +931,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="300">
           <caret line="12" column="79" lean-forward="false" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../JS3_project/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5275">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/formActions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="38" column="11" lean-forward="false" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="43" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/productsActions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <marker date="1497522454438" expanded="true" signature="186:618" ph="{...}" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="47" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/cartActions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        <state relative-caret-position="350">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc;n#increaseCartAmount#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Products.js">
+    <entry file="file://$PROJECT_DIR$/src/components/History.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/historyReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="44" column="85" lean-forward="false" selection-start-line="44" selection-start-column="85" selection-end-line="44" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/formReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="150">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
@@ -845,35 +1005,56 @@
     <entry file="file://$PROJECT_DIR$/src/Store/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#48#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="16" column="116" lean-forward="false" selection-start-line="16" selection-start-column="116" selection-end-line="16" selection-end-column="116" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../JS3_project/assets/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/actions/menuActions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5275">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="525">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/cartReducer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+        <state relative-caret-position="550">
+          <caret line="60" column="111" lean-forward="false" selection-start-line="60" selection-start-column="111" selection-end-line="60" selection-end-column="111" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/menuReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/productsReducer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
+        <state relative-caret-position="-500">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -882,50 +1063,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="158" column="15" lean-forward="false" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
+        <state relative-caret-position="100">
+          <caret line="105" column="14" lean-forward="false" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Cart.js">
+    <entry file="file://$PROJECT_DIR$/src/reducers/productsReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/menuActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1403">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="16" column="152" lean-forward="false" selection-start-line="16" selection-start-column="152" selection-end-line="16" selection-end-column="152" />
+        <state relative-caret-position="250">
+          <caret line="10" column="146" lean-forward="false" selection-start-line="10" selection-start-column="146" selection-end-line="10" selection-end-column="146" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/menuReducer.js">
+    <entry file="file://$PROJECT_DIR$/src/reducers/cartReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state relative-caret-position="225">
+          <caret line="9" column="146" lean-forward="false" selection-start-line="9" selection-start-column="146" selection-end-line="9" selection-end-column="146" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

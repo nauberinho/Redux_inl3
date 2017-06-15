@@ -94,15 +94,20 @@
   display: flex;
   flex-direction: row;
   width: 90%;
-  height: 90%;
+  height: 80%;
 
+  overflow-x:hidden;
+  overflow-y: auto;
   border-left: 1px solid #9faf9e;
   border-right: 1px solid #9faf9e;
   margin:auto;
-
+  margin-top: 8%;
+float: left;
+  clear: both;
 }
 
 .product-div{
+  display: block;
   margin: 2%;
   border-left: 1px solid black;
   border-right: 1px solid black;
@@ -175,10 +180,11 @@ border: 1px solid black;
 .edit-div{
 
   position: absolute;
-  top:2%;
+  top:0%;
   right: 4%;
   height: 10%;
   width: 10%;
+  margin-bottom: 5%;
 
 }
 
@@ -245,10 +251,12 @@ border-bottom: 1px solid #c4be4a;
   flex-direction: row;
   width: 90%;
   height: 90%;
-
+  overflow-x:hidden;
+  overflow-y:auto;
   border-left: 1px solid #9faf9e;
   border-right: 1px solid #9faf9e;
   margin:auto;
+  font-family: 'Abel', sans-serif;
 
 }
 
@@ -265,5 +273,25 @@ border-bottom: 1px solid #c4be4a;
 
   max-height: 100%;
   max-width: 30%;
+
+}
+
+.cart-total{
+
+position: absolute;
+right: 14%;
+  bottom: 5%;
+  font-size: 140%;
+  font-weight: 700;
+
+}
+
+.sign-in-to-edit{
+
+  border: none;
+  background: none;
+  font-family: 'Abel', sans-serif;
+  font-weight: 700;
+
 
 }

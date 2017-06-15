@@ -5,6 +5,7 @@ import Form from './Form';
 import Products from './Products';
 import Cart from './Cart'
 import Menu from './Menu'
+import History from './History'
 import {connect} from 'react-redux';
 import Main from './Main.js';
 import {
@@ -31,7 +32,8 @@ import
 from '../actions/cartActions.js';
 import {
     changeView,
-    authentication
+    LogIn,
+    LogOut
 } from '../actions/menuActions'
 import * as firebase from 'firebase';
 import config from '../firebase';
@@ -54,9 +56,9 @@ return viewToReturn;
   render() {
     return (
       <div className="container">
-          <Menu authentication={this.props.authentication} view={this.props.view} changeView={this.props.changeView}/>
+          <Menu LogIn={this.props.LogIn} LogOut={this.props.LogOut} view={this.props.view} changeView={this.props.changeView}/>
 
-          {this.props.view.view == 'productsview' ? (<Products updateProductsState={this.props.updateProductsState} productsState={this.props.productsState} //
+          {this.props.view.view == 'productsview' ? (<Products authenticated = {this.props.view.authenticated} updateProductsState={this.props.updateProductsState} productsState={this.props.productsState} //
                                                                increaseCartAmount={this.props.increaseCartAmount} editable={this.props.editable}
                                                                submitChange={this.props.submitChange} updateChangedProduct={this.props.updateChangedProduct}/>)
               : null}
@@ -73,6 +75,11 @@ return viewToReturn;
               (<Cart cartState={this.props.cartState} increaseCartAmount={this.props.increaseCartAmount}
               decreaseCartAmount={this.props.decreaseCartAmount} removeFromCart={this.props.removeFromCart}/>)
               :null}
+
+          {this.props.view.view == 'historyview' ?
+
+              (<History historyState={this.props.historyState}/>)
+              :null}
       </div>
     );
   }
@@ -83,7 +90,8 @@ const mapStateToProps = (state) => {
         form: state.formReducer,
         productsState: state.productsReducer,
         cartState: state.cartReducer,
-        view: state.menuReducer
+        view: state.menuReducer,
+        historyState: state.historyReducer
     }
 }
 
@@ -156,9 +164,15 @@ const mapDispatchToProps = (dispatch) => {
             dispatch(setImage (event))
         },
 
-        authentication: () => {
+        LogIn: () => {
 
-            dispatch(authentication ())
+            dispatch(LogIn())
+
+        },
+
+        LogOut: () => {
+
+            dispatch(LogOut())
 
         }
 

@@ -42,7 +42,7 @@ export default class Cart extends Component{
 
 
             <div className="cart-container">
-                <div>Total sum: {this.props.cartState.total}</div>
+                <div className="cart-total">Total sum: {this.props.cartState.total} $</div>
                 <ul>
 
                     {liMap}

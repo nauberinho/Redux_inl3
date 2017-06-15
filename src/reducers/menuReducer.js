@@ -8,41 +8,32 @@ const github = new firebase.auth.GithubAuthProvider();
 
 const menuReducer = (state = {
     view: 'productsview',
-    authenticated: false
+    authenticated: false,
+    authText: 'Log In'
 }, action ) => {
     let newState = {...state};
     switch(action.type){
 
         case 'CHANGE_VIEW':
-            newState = {...newState, view: action.payload.target.id}
+            newState = {...newState, view: action.payload.target.id};
             return newState;
 
-        case 'AUTHENTICATION':
-            if(newState.authenticated == false){
-                firebase.auth().signInWithPopup(github).then(result => {
-                    let user = result.user;
-                    newState = {
-                        ...state,
+        case 'LOG_IN':
+            newState.authenticated = true;
+            newState.authText = 'Log Out';
+            return newState;
 
-                        user: {
-                            username: user.displayName,
-                            uid: user.uid,
-                            admin: true
-                        },
+            case 'LOG_OUT':
 
-                        authenticated: true
-                    }})
-            }
-             else{ firebase.auth().signOut().then(() => {
-                newState = {
-                    ...state, authenticated: false, user: {}
-                }
-            })
-            }
+                newState.authenticated = false;
+                newState.authText = 'Log In';
+
+            return newState;
+
 
 
         default:
-            return state;
+            return newState;
 
 
 

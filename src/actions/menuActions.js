@@ -10,10 +10,16 @@ export function changeView(event){
 
 }
 
-export function authentication(event){
+export function LogIn(){
     return {
-        type: 'AUTHENTICATION',
-        payload: event
+        type: 'LOG_IN'
+    }
+
+}
+
+export function LogOut(){
+    return {
+        type: 'LOG_OUT'
     }
 
 }
