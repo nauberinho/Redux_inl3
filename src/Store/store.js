@@ -4,13 +4,17 @@
 
 import {createStore, combineReducers, applyMiddleware} from 'redux';
 import {createLogger} from 'redux-logger';
-import form from '../reducers/formReducer';
-import product from '../reducers/productsReducer';
+import formReducer from '../reducers/formReducer';
+import productsReducer from '../reducers/productsReducer';
+import cartReducer from '../reducers/cartReducer';
+import menuReducer from '../reducers/menuReducer';
 
 export default createStore(
     combineReducers({
-        form,
-        product
+        formReducer,
+        productsReducer,
+        cartReducer,
+        menuReducer
     }),
     applyMiddleware(createLogger())
 );

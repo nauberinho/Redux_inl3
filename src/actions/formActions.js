@@ -18,6 +18,22 @@ export function setPrice(event){
 
 }
 
+export function setAmount(event){
+    return{
+        type: 'SET_AMOUNT',
+        payload: event.target.value
+    }
+
+}
+
+export function setImage(event){
+    return{
+        type: 'SET_IMAGE',
+        payload: event.target.value
+    }
+
+}
+
 export function pushToDatabase(){
 
     return{

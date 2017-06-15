@@ -20,3 +20,33 @@ export function addNewProduct (productObject){
     }
 
 }
+
+export function editable (){
+
+    return{
+        type: 'EDITABLE'
+    }
+
+}
+
+export function submitChange (productObject){
+
+    return{
+        type: 'SUBMIT_CHANGE',
+        payload: productObject
+    }
+
+}
+
+export function updateChangedProduct (event){
+
+    return{
+        type: 'UPDATE_CHANGED_PRODUCT',
+        payload: event
+    }
+
+}
+
+
+
+

@@ -3,33 +3,73 @@ import logo from '../logo.svg';
 import '../App.css';
 import Form from './Form';
 import Products from './Products';
+import Cart from './Cart'
+import Menu from './Menu'
 import {connect} from 'react-redux';
 import Main from './Main.js';
 import {
     setName,
     setPrice,
+    setAmount,
+    setImage,
     pushToDatabase
 } from '../actions/formActions.js';
 import{
     updateProductsState,
-    addNewProduct
+    addNewProduct,
+    editable,
+    submitChange,
+    updateChangedProduct
 }
-
  from '../actions/productsActions.js';
+
+import
+    {increaseCartAmount,
+     decreaseCartAmount,
+    removeFromCart
+}
+from '../actions/cartActions.js';
+import changeView from '../actions/menuActions'
 import * as firebase from 'firebase';
 import config from '../firebase';
 firebase.initializeApp(config);
 
 class App extends Component {
-    changeUserName(newName) {
-
+    constructor(props) {
+        super(props);
+        this.returnView = this.returnView.bind(this);
     }
+
+     returnView(){
+        console.log('view returned!!!!!!!')
+        let viewToReturn;
+
+
+return viewToReturn;
+
+}
   render() {
     return (
       <div className="container">
+          <Menu view={this.props.view} changeView={this.props.changeView}/>
 
-          <Form formState={this.props.form} setName={this.props.setName} setPrice={this.props.setPrice} addNewProduct={this.props.addNewProduct} pushToDatabase={this.props.pushToDatabase}/>
-          <Products updateProductsState={this.props.updateProductsState} productsState={this.props.productsState}/>
+          {this.props.view.view == 'productsview' ? (<Products updateProductsState={this.props.updateProductsState} productsState={this.props.productsState} //
+                                                               increaseCartAmount={this.props.increaseCartAmount} editable={this.props.editable}
+                                                               submitChange={this.props.submitChange} updateChangedProduct={this.props.updateChangedProduct}/>)
+              : null}
+
+          {this.props.view.view == 'formview' ? (console.log('form should display'), <Form formState={this.props.form} setName={this.props.setName} setPrice={this.props.setPrice}
+                    setAmount={this.props.setAmount} setImage={this.props.setImage} addNewProduct={this.props.addNewProduct}
+                    pushToDatabase={this.props.pushToDatabase}/>)
+              : null}
+
+
+
+          {this.props.view.view == 'cartview' ?
+
+              (<Cart cartState={this.props.cartState} increaseCartAmount={this.props.increaseCartAmount}
+              decreaseCartAmount={this.props.decreaseCartAmount} removeFromCart={this.props.removeFromCart}/>)
+              :null}
       </div>
     );
   }
@@ -37,9 +77,10 @@ class App extends Component {
 
 const mapStateToProps = (state) => {
     return{
-        form: state.form,
-        productsState: state.product
-
+        form: state.formReducer,
+        productsState: state.productsReducer,
+        cartState: state.cartReducer,
+        view: state.menuReducer
     }
 }
 
@@ -54,6 +95,10 @@ const mapDispatchToProps = (dispatch) => {
             dispatch(setPrice(event))
         },
 
+        setAmount: (event) => {
+            dispatch(setAmount(event))
+        },
+
         pushToDatabase: (productObject) => {
 
             dispatch(pushToDatabase(productObject))
@@ -66,6 +111,46 @@ const mapDispatchToProps = (dispatch) => {
 
         addNewProduct: (productObject) => {
             dispatch(addNewProduct(productObject))
+        },
+
+        increaseCartAmount: (productObject) => {
+
+            dispatch(increaseCartAmount(productObject))
+        },
+
+        decreaseCartAmount: (productObject) => {
+
+            dispatch(decreaseCartAmount(productObject))
+        },
+
+        removeFromCart: (productObject) => {
+
+            dispatch(removeFromCart(productObject))
+        },
+
+        editable: () => {
+
+            dispatch(editable())
+        },
+
+        submitChange: (productObject) => {
+            dispatch(submitChange(productObject))
+        },
+
+        updateChangedProduct: (event) => {
+
+            dispatch(updateChangedProduct(event))
+        },
+
+        changeView: (event) => {
+
+            dispatch(changeView (event))
+
+        },
+
+        setImage: (event) => {
+
+            dispatch(setImage (event))
         }
 
     };
