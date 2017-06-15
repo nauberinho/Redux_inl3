@@ -2,9 +2,17 @@
  * Created by Iamnauber on 2017-06-14.
  */
 
-export default function changeView(event){
+export function changeView(event){
     return {
         type: 'CHANGE_VIEW',
+        payload: event
+    }
+
+}
+
+export function authentication(event){
+    return {
+        type: 'AUTHENTICATION',
         payload: event
     }
 

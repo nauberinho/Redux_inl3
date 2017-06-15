@@ -5,7 +5,9 @@ import * as firebase from 'firebase';
 const database = firebase.database();
 
 var productsList = [];
-var initialProducts = [{name: 'Exhale', price: 199, amount: 100, image: 'https://www.jrrshop.com/media/catalog/product/m/g/mgn7ozl.png', cartAmount: 0, id: 0}];
+var initialProducts = [{name: 'Exhale', price: 199, amount: 100, image: 'https://www.jrrshop.com/media/catalog/product/m/g/mgn7ozl.png', cartAmount: 0, id: 0},
+    {name: 'Gordon Wong', price: 1, amount: 100, image: 'http://content.rankinghero.com/walls/620680/activity_620680_1433197100_630.jpg', cartAmount: 0, id: 1}];
+
 database.ref('products').on('value', (snapshot) => {
 
     let data = snapshot.val();
@@ -62,12 +64,14 @@ const productsReducer = (state = {
             return newState;
 
         case 'INCREASE_CART_AMOUNT':
-            newProductsList[action.payload.id].amount--
+            newProductsList[action.payload.id].amount--;
+            newProductsList[action.payload.id].cartAmount++
             newState = {...state, products: newProductsList }
             return newState;
 
         case 'DECREASE_CART_AMOUNT':
-            newProductsList[action.payload.id].amount++
+            newProductsList[action.payload.id].amount++;
+            newProductsList[action.payload.id].cartAmount--
             newState = {...state, products: newProductsList }
             return newState;
 
@@ -91,9 +95,9 @@ const productsReducer = (state = {
             return newState;
 
         case 'SUBMIT_CHANGE':
-            let newProducts;
-            newState.changedProducts.length != 0 ? newState.changedProducts : newProducts = newState.products;
-            newState = {...newState, products: newProducts, readOnly: true, editText: 'Edit'}
+            let newProducts = newState.changedProducts;
+            newState.changedProducts.length == 0 ? newState = {...newState, changedProducts:  []} : newState = {...newState, products: newProducts, readOnly: true, editText: 'Edit'};
+
             return newState;
 
         default:

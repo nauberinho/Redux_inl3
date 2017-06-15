@@ -29,7 +29,10 @@ import
     removeFromCart
 }
 from '../actions/cartActions.js';
-import changeView from '../actions/menuActions'
+import {
+    changeView,
+    authentication
+} from '../actions/menuActions'
 import * as firebase from 'firebase';
 import config from '../firebase';
 firebase.initializeApp(config);
@@ -51,7 +54,7 @@ return viewToReturn;
   render() {
     return (
       <div className="container">
-          <Menu view={this.props.view} changeView={this.props.changeView}/>
+          <Menu authentication={this.props.authentication} view={this.props.view} changeView={this.props.changeView}/>
 
           {this.props.view.view == 'productsview' ? (<Products updateProductsState={this.props.updateProductsState} productsState={this.props.productsState} //
                                                                increaseCartAmount={this.props.increaseCartAmount} editable={this.props.editable}
@@ -151,6 +154,12 @@ const mapDispatchToProps = (dispatch) => {
         setImage: (event) => {
 
             dispatch(setImage (event))
+        },
+
+        authentication: () => {
+
+            dispatch(authentication ())
+
         }
 
     };

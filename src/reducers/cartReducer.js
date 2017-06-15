@@ -4,7 +4,8 @@
 import * as firebase from 'firebase';
 const database = firebase.database();
 
-var initialProducts = [{name: 'Exhale', price: 199, amount: 100, image: 'https://www.jrrshop.com/media/catalog/product/m/g/mgn7ozl.png', cartAmount: 0, id: 0}];
+var initialProducts = [{name: 'Exhale', price: 199, amount: 100, image: 'https://www.jrrshop.com/media/catalog/product/m/g/mgn7ozl.png', cartAmount: 0, id: 0},
+    {name: 'Gordon Wong', price: 1, amount: 100, image: 'http://content.rankinghero.com/walls/620680/activity_620680_1433197100_630.jpg', cartAmount: 0, id: 1}];
 
 const cartReducer = (state = {
     cartProducts: initialProducts,
@@ -26,12 +27,14 @@ const cartReducer = (state = {
 
         case 'INCREASE_CART_AMOUNT':
 
-            newCartProducts[action.payload.id].cartAmount++
+            newCartProducts[action.payload.id].cartAmount++;
+            newCartProducts[action.payload.id].amount--;
             newState = {...state, cartProducts: newCartProducts, total: (newState.total + action.payload.price) }
             return newState;
 
         case 'DECREASE_CART_AMOUNT':
-            newCartProducts[action.payload.id].cartAmount--
+            newCartProducts[action.payload.id].cartAmount--;
+            newCartProducts[action.payload.id].amount++;
             newState = {...state, cartProducts: newCartProducts, total: newState.total - action.payload.price}
             return newState;
 
