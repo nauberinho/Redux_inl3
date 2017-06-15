@@ -23,9 +23,11 @@ export default class Products extends Component {
                     <div>
                         <div className='product-name-div'>{this.props.productsState.readOnly== false ? <input data-key={key} id='name' onKeyUp={this.props.updateChangedProduct} defaultValue={product.name}/> :   <span>{product.name}</span> }</div><br/>
                         <div className='product-image-div'>{this.props.productsState.readOnly== false ? <input data-key={key} id='image' onKeyUp={this.props.updateChangedProduct} defaultValue={product.image}/> :   <img className='product-image' src={product.image} alt={product.image}></img>}</div>
-                        <div className='product-price-div'>{this.props.productsState.readOnly== false ? <input data-key={key} id='price' onKeyUp={this.props.updateChangedProduct} defaultValue={product.price}/> :   <span>{product.price} $</span> }</div><br/>
+
+                        <div className="price-and-store"><div className='product-price-div'>{this.props.productsState.readOnly== false ? <input data-key={key} id='price' onKeyUp={this.props.updateChangedProduct} defaultValue={product.price}/> :   <span>{product.price} $</span> }</div><br/>
                         <br/>
-                        <div>{this.props.productsState.readOnly== false ? <input data-key={key} id='amount' onKeyUp={this.props.updateChangedProduct} defaultValue={product.amount}/> :   <span>{product.amount}</span> } in store</div>
+                        <div className="product-store-div">{this.props.productsState.readOnly== false ? <input data-key={key} id='amount' onKeyUp={this.props.updateChangedProduct} defaultValue={product.amount}/> :   <span>{product.amount}</span> } in store</div>
+                        </div>
 
 
                         {product.amount > 0 && this.props.productsState.readOnly != false ?

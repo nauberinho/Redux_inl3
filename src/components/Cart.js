@@ -14,11 +14,11 @@ export default class Cart extends Component{
 
 
                 product.cartAmount > 0 ?
-                <li key={key}>
+                <div className="cart-product" key={key}>
                     <span>{product.name}</span><br/>
                     <span>{product.price}</span><br/>
                     <span>{product.cartAmount} in cart</span><br/>
-                    <img src={product.image}></img><br/>
+                    <img className='cart-image' src={product.image}></img><br/>
 
 
                     {product.cartAmount > 1 ? <button onClick={() => this.props.decreaseCartAmount(this.props.cartState.cartProducts[key])}>-</button>
@@ -28,7 +28,7 @@ export default class Cart extends Component{
 
                     {product.amount > 0 ? <button  onClick={() => this.props.increaseCartAmount(this.props.cartState.cartProducts[key])}>+</button> : <button  disabled >+</button>}
 
-                </li>
+                </div>
 
                     : null
 
@@ -41,7 +41,7 @@ export default class Cart extends Component{
 
 
 
-            <div>
+            <div className="cart-container">
                 <div>Total sum: {this.props.cartState.total}</div>
                 <ul>
 
