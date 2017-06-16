@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "gh-pages": "^1.0.0",
     "react-scripts": "1.0.7",
     "redux-devtools": "^3.4.0"
   },
