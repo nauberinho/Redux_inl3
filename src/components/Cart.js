@@ -20,7 +20,7 @@ export default class Cart extends Component{
                     <span>{product.price} $</span>
                 </div>
 
-                    <img className='cart-image' src={product.image}></img><br/>
+                    <img alt={product.image} className='cart-image' src={product.image}></img><br/>
 
                     <div className="amount-div">
                         <span><span className="cart-amount-span">{product.cartAmount}</span> in cart</span>
