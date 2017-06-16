@@ -8,10 +8,11 @@ export default class History extends Component {
 
     render(){
 
-        let actions = this.props.historyState.actions.map((action) => {
+        let actions = this.props.historyState.actions.map((action, key) => {
 
                 return(
-                    <li className="history-action">{action}</li>
+                    <li key={key} className="history-action">{action.message} {action.regretable == true ?
+                        <button className="regret-button" onClick={() => this.props.regretAction (action.regretableIndex)}>Regret action</button> : null}</li>
                 )
             })
 

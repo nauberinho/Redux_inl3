@@ -7,18 +7,57 @@ const database = firebase.database();
 
 const historyReducer = (state = {
 
-    actions: []
-
+    actions: [],
+    numberOfRegretables: 0
 
 }, action) => {
-    let newActionsList = state.actions;
-    newActionsList.push(action.type);
-    let newState = {...state, actions: newActionsList};
+    let newState = {...state}
+        switch(action.type){
+
+            case 'REGRET_ACTION':
+
+           let newActions = newState.actions;
+            for(let i=newState.actions.length-1; i>=0; i--){
+                if(i>= action.payload) {
+
+                    newActions.pop()
+                }
+            }
+            newState.numberOfRegretables = newState.numberOfRegretables - action.regretableIndex;
+            newState = {...newState, actions: newActions}
+            return newState;
+        }
+    if(action.type!= 'REGRET_ACTION') {
+        let newNumberOfRegretables= newState.numberOfRegretables;
+        let newActionsList = state.actions;
+        let bool;
+        if (action.regretable == true) {
+            bool = true
+            newNumberOfRegretables++;
+        }
+
+        else {
+            bool = false;
+
+        }
+
+        newActionsList.push(
+            {
+                message: action.type,
+                regretable: bool,
+                regretableIndex: newNumberOfRegretables
+    }
+    )
+
+        newState = {...state, actions: newActionsList, numberOfRegretables: newNumberOfRegretables};
+
+
+    }
 
     return newState;
 
 
-
+}
 
 /*
                 type: 'SET_NAME',
@@ -50,6 +89,6 @@ const historyReducer = (state = {
 */
 
 
-}
+
 
 export default historyReducer;

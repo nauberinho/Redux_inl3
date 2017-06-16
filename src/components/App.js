@@ -20,7 +20,9 @@ import{
     addNewProduct,
     editable,
     submitChange,
-    updateChangedProduct
+    updateChangedProduct,
+    deleteProduct,
+    regretAction
 }
  from '../actions/productsActions.js';
 
@@ -58,9 +60,9 @@ return viewToReturn;
       <div className="container">
           <Menu LogIn={this.props.LogIn} LogOut={this.props.LogOut} view={this.props.view} changeView={this.props.changeView}/>
 
-          {this.props.view.view == 'productsview' ? (<Products authenticated = {this.props.view.authenticated} updateProductsState={this.props.updateProductsState} productsState={this.props.productsState} //
+          {this.props.view.view == 'productsview' ? (<Products deleteProduct = {this.props.deleteProduct} authenticated = {this.props.view.authenticated} updateProductsState={this.props.updateProductsState} productsState={this.props.productsState} //
                                                                increaseCartAmount={this.props.increaseCartAmount} editable={this.props.editable}
-                                                               submitChange={this.props.submitChange} updateChangedProduct={this.props.updateChangedProduct}/>)
+                                                               submitChange={this.props.submitChange} updateChangedProduct={this.props.updateChangedProduct} />)
               : null}
 
           {this.props.view.view == 'formview' ? (console.log('form should display'), <Form formState={this.props.form} setName={this.props.setName} setPrice={this.props.setPrice}
@@ -78,7 +80,7 @@ return viewToReturn;
 
           {this.props.view.view == 'historyview' ?
 
-              (<History historyState={this.props.historyState}/>)
+              (<History historyState={this.props.historyState} regretAction={this.props.regretAction}/>)
               :null}
       </div>
     );
@@ -173,6 +175,18 @@ const mapDispatchToProps = (dispatch) => {
         LogOut: () => {
 
             dispatch(LogOut())
+
+        },
+
+        deleteProduct: (key) => {
+
+            dispatch(deleteProduct(key))
+
+        },
+
+        regretAction: (key) => {
+
+            dispatch(regretAction(key))
 
         }
 

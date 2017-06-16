@@ -16,7 +16,8 @@ export function addNewProduct (productObject){
 
     return{
         type: 'ADD_NEW_PRODUCT',
-        payload: productObject
+        payload: productObject,
+        regretable: true
     }
 
 }
@@ -33,7 +34,8 @@ export function submitChange (productObject){
 
     return{
         type: 'SUBMIT_CHANGE',
-        payload: productObject
+        payload: productObject,
+        regretable: true
     }
 
 }
@@ -42,10 +44,31 @@ export function updateChangedProduct (event){
 
     return{
         type: 'UPDATE_CHANGED_PRODUCT',
-        payload: event
+        payload: event,
+        regretable: true
     }
 
 }
+
+export function deleteProduct (key){
+
+    return{
+        type: 'DELETE_PRODUCT',
+        payload: key,
+        regretable: true
+    }
+
+}
+
+export function regretAction (key){
+
+    return{
+        type: 'REGRET_ACTION',
+        payload: key
+    }
+
+}
+
 
 
 
